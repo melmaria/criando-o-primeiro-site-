@@ -10,26 +10,24 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     background-attachment: fixed;
 }
 
 section:nth-of-type(1) {
-    background-image: url(1.jpg);
+    background-image: url();
     height: 600px; 
 }
 
 section:nth-of-type(3) {
-    background-image: url(2.jpg);
+    background-image: url();
     height: 600px; 
 }
 
 section:nth-of-type(5) {
-    background-image: url(3.jpg);
+    background-image: url();
     height: 600px; 
 }
 
-section:nth-of-type(7) {
-    background-image: url(4.jpg);
-    height: 600px; 
+h1 {
+    text-shadow: 2px 2px 2px #000;
 }
